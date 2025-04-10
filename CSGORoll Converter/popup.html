@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSGORoll Converter</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      min-width: 220px;
+      padding: 10px;
+    }
+    label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <label>
+    <input type="checkbox" id="toggle-switch" />
+    ON/OFF
+  </label>
+
+  <label for="currency-select">Value :</label>
+  <select id="currency-select">
+    <option value="EUR">€ Euro</option>
+    <option value="USD">$ Dollar</option>
+    <option value="PLN">zł PLN</option>
+    <option value="RUB">₽ Rouble</option>
+  </select>
+
+  <script src="popup.js"></script>
+</body>
+</html>
